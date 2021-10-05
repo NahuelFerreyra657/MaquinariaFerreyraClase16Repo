@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background-color: black; }
+  header h1 {
+    width: 100%;
+    text-align: center; }
+  header .headerPagina__titulo {
+    color: yellow;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%; }
+  header .headerPagina__subtitulo {
+    color: yellow;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 7px;
+    width: 100%;
+    text-align: center; }
+
+nav {
+  color: black;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+  color: black; }
+  nav .navbar-toggler {
+    background-color: gray; }
+  nav .navegador {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+  nav a {
+    text-decoration: none;
+    color: #f8f4f4; }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+main {
+  line-height: 2.5;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between; }
+  main .titulosPaginas {
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    color: #000dff;
+    height: 30%;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center; }
+  main h2 {
+    color: #363535;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px; }
+  main .parrafosMenu {
+    color: black;
+    font-size: 13px;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 8px;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    padding-top: 30px; }
+  main .menuHome {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-top: 30px; }
+  main th {
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    height: 40px; }
+  main td {
+    color: whitesmoke;
+    font-size: 15px;
+    font-style: italic;
+    width: 20%;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center; }
+  main .kit {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 20%;
+    height: 40px; }
+  main .aceites {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 33%;
+    height: 40px; }
+  main .partes {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 33%;
+    height: 40px; }
+  main li {
+    font-size: 15px;
+    list-style: none; }
+  main table {
+    width: 100%;
+    margin-bottom: 30px; }
+  main fieldset {
+    font-size: 15px; }
+  main .Contacto {
+    font-size: 15px; }
+  main .parrafosServicios {
+    width: 80%;
+    height: 70%;
+    color: black;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    text-align: center; }
+  main .tituloServicios {
+    font-size: 25px;
+    height: 20%;
+    text-align: center;
+    width: 60%; }
+  main .paginaServ {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  main .row div {
+    padding: 1em; }
+  main .video {
+    height: 350px; }
+
+footer {
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: black;
+  padding-right: 20px; }
+  footer .separacionIconos {
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    color: #0a8fbb; }
+  footer i:hover {
+    transform: scale(2, 2); }
+
+@media only screen and (min-width: 600px) {
+  header {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: "Logo Principal " "Logo Secundario"; }
+    header h1 {
+      height: 150px;
+      width: 27%;
+      grid-area: Logo; }
+    header .headerPagina__titulo {
+      font-size: 30px;
+      width: 80%;
+      grid-area: Principal;
+      text-align: center; }
+    header .headerPagina__subtitulo {
+      font-size: 30px;
+      width: 80%;
+      grid-area: Secundario; }
+  .nav {
+    display: inline-block; }
+    .nav .navegador {
+      flex-direction: row;
+      justify-content: space-around;
+      height: 80%; }
+  main .titulosPaginas {
+    font-size: 30px;
+    text-align: center; }
+  main .menuHome {
+    height: 700px;
+    flex-direction: column; }
+  main .parrafosMenu {
+    font-size: 15px;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px; }
+  main .tituloServicios {
+    width: 60%;
+    height: 100px;
+    font-size: 30px;
+    text-align: center; }
+  main .parrafosServicios {
+    width: 60%;
+    height: 150px;
+    font-size: 15px; }
+  footer .separacionIconos {
+    width: 16%; } }
+
+@media only screen and (min-width: 992px) {
+  .headerPagina {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .headerPagina .headerPagina__titulo {
+      width: 40%;
+      font-size: 40px;
+      letter-spacing: 10px; }
+    .headerPagina .headerPagina__subtitulo {
+      font-size: 35px;
+      letter-spacing: 5px;
+      text-align: unset; }
+  nav {
+    font-size: 20px;
+    height: 30px; }
+  main .titulosPaginas {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    main .titulosPaginas .parrafosMenu {
+      font-size: 16px;
+      letter-spacing: 5px;
+      word-spacing: 18px;
+      height: 600px;
+      width: 100%; }
+  footer {
+    font-size: 35px; }
+    footer .separacionIconos {
+      width: 10%; } }

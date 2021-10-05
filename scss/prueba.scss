@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    @import "_variables";
+
+    header{
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        background-color: black;
+        
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+        
+        
+        .headerPagina__titulo{
+            color: yellow;
+            font-size: $tamanioLetraTitulo;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            letter-spacing: 10px; 
+            text-align: center;
+            width: 100%;
+           
+        }
+        .headerPagina__subtitulo{
+            color:yellow;
+            font-size: $tamanioLetraTitulo;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            letter-spacing: 7px;
+            width: 100%;
+            text-align: center;
+        
+        }
+    }
+
+    nav{
+        color: $colorParrafos;
+        font-size: $tamanioLetraVarios;
+        font-family: $letraParrafosyTitulos;
+        color: black;
+        .navbar-toggler{
+            background-color: gray;
+        }
+        .navegador{ 
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(248, 244, 244);
+        }
+        
+      
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    main{
+        line-height: 2.5;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+
+        .titulosPaginas{
+            font-family: $letraParrafosyTitulos;
+            font-size: $tamanioLetraTitulo;
+            color: $colorTitulos;
+            height: 30%;
+            width: 100%;
+            padding-top: 10px;
+           
+            text-align: center;
+        
+        }
+        h2{
+            color: rgb(54, 53, 53);
+            
+            font-size:$tamanioLetraVarios;
+            font-family: $letraParrafosyTitulos;
+            
+            letter-spacing: 8px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .parrafosMenu{
+            color: $colorParrafos;
+            font-size:$tamanioLetraParrafos;
+            font-family: $letraParrafosyTitulos;
+            font-style: italic;
+            letter-spacing: 8px;
+            width: 100%;
+            text-align: center;
+            height: 50%;
+            padding-top: 30px;
+                    
+               
+        }
+
+        .menuHome{
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            padding-top: 30px;
+        }
+
+        th{
+            color: whitesmoke;
+            font-size: 15px;
+            font-family: $letraTabla;
+           text-align: center;
+            height: 40px;
+            
+            
+        }
+        
+        
+        td{
+            color: whitesmoke;
+            font-size: 15px;
+            font-style: italic;
+            width: 20%;
+            height: 40px;
+            border: 2px solid black; 
+            text-align: center;
+        }
+        
+        
+        .kit{
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            width: 20%;
+            height: 40px;
+           
+        }
+        
+        
+        .aceites{
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            width: 33%;
+            height: 40px;
+            
+        }
+        
+        
+        .partes{
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            width: 33%;
+            height: 40px;
+              }
+        
+        
+        li{
+            font-size: $tamanioLetraVarios;
+            list-style: none;
+        }
+        
+        
+        table{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        fieldset{
+            font-size: $tamanioLetraVarios;
+        }
+        
+        
+        .Contacto{
+            font-size: $tamanioLetraVarios;
+            
+        }
+
+        .parrafosServicios{
+            width: 80%;
+            height: 70%;
+            color: $colorParrafos;
+            font-size: $tamanioLetraVarios;
+            font-family: $letraParrafosyTitulos;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        
+        .tituloServicios{
+            font-size: $tamanioLetraTitulo;
+            height: 20%;
+            text-align: center;
+            width: 60%;
+        }
+        
+        
+        .paginaServ{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+        .row div{
+            padding: 1em;
+        } .video{
+            height: 350px;
+        }  
+         
+
+
+       
+        
+        
+        
+        
+                
+    } 
+    
+    footer{
+        font-size: 30px;
+        height: 100px; 
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background: black; 
+        padding-right: 20px;
+        
+        
+        .separacionIconos{
+            width: 27%;
+            display: flex;
+            justify-content: space-between;
+            color: rgb(10, 143, 187);
+        }
+        i:hover{
+            transform: scale(2,2);
+        }
+    }
+
+    @media only screen and (min-width:600px){
+        
+        header{
+            height: 200px;
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: 40% 40%;
+            grid-template-areas: "Logo Principal "
+                                 "Logo Secundario";
+          
+                                 
+                                 h1{
+            
+                                    height: 150px;
+                                    width: 27%;
+                                      grid-area: Logo;
+                                   }
+                                   .headerPagina__titulo{
+                                       
+                                       font-size: 30px;
+                                       
+                                       width: 80%;
+                                       grid-area: Principal;
+                                       text-align: center;
+                                      
+                                   }
+                                   .headerPagina__subtitulo{
+                                     
+                                       font-size: 30px;
+                                       
+                                       width: 80%;
+                                       grid-area: Secundario;   
+                                   }
+        }
+        .nav{
+            
+            display: inline-block;
+            
+
+            .navegador{
+                flex-direction: row;
+                justify-content: space-around;
+                height: 80%;
+            }
+
+
+        }
+        
+        main{
+            .titulosPaginas{
+                font-size: 30px;
+                text-align: center;
+                }
+                .menuHome{
+    
+                    height: 700px;
+                    
+                    flex-direction: column;
+                    
+                    
+                }
+
+                    .parrafosMenu{
+                
+                        font-size: 15px;
+                        height: 600px;
+                        width: 100%;
+                        margin-top: 100px;
+                    }
+        
+                    .tituloServicios{
+                        width: 60%;
+                        height: 100px;
+                        font-size: 30px;
+                        text-align: center;
+                    } 
+                    .parrafosServicios{
+                        width: 60%;
+                        height: 150px;
+                        font-size: 15px;
+                    }
+                    
+
+                    
+                }
+                footer{
+                   
+                    
+                    .separacionIconos{
+                        width: 16%;
+                     
+                    }
+                }
+
+        }
+        
+       
+            
+            
+        
+       
+       
+    
+
+    @media only screen and (min-width:992px){
+       .headerPagina{
+            height: 120px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            
+            .headerPagina__titulo{
+                width: 40%;
+                font-size: 40px;
+                letter-spacing: 10px;
+               
+                
+            }
+            .headerPagina__subtitulo{
+              
+                font-size:35px;
+                letter-spacing: 5px;
+                text-align: unset;
+                
+               
+                
+            }   
+        }
+    
+       
+        nav{
+            font-size: 20px;
+            height: 30px;
+        }
+
+        main{
+
+            .titulosPaginas{
+                font-size: 40px;
+                text-align: center;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                .parrafosMenu{
+            
+                    font-size: 16px;
+                    letter-spacing: 5px;
+                    word-spacing: 18px;
+                    height: 600px;
+                    width: 100%;
+                }
+               
+              
+            
+            }
+            }
+            footer{
+                font-size: 35px;  
+                    
+                .separacionIconos{
+                    width: 10%;
+                 
+                }
+            }
+
+        }
+       
+        
+    

@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+h1{
+
+    color: orangered;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+h2{
+    color: black;
+    font-size: 120px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    
+}
+h3{
+    color: black;
+    font-size: 55px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.colorParrafos{
+
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.nosotros{
+   color: #23383b;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 15px;
+    
+}
+nav{
+    color: black;
+    font-size: 35px;
+    background-color: #a43627;
+}
+th{
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+td{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+.kit{
+ color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.aceites{
+color: black;
+font-size: 35px;
+font-weight: bold;
+}
+.partes{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+footer{
+    font-size: 30px;
+    background-color: #fadb67;
+    height: 100px;
+}
+
+
+div{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a:hover{
+
+    color: #3aa1aa ;
+}
+
+a{
+    color:whitesmoke;
+}
+p{
+    color: grey;
+    font-size: 30px;
+}
+header{
+    line-height: 1.6;
+    background-color: #fadb67;
+}
+ul{ 
+    text-decoration: none;
+}
+main{
+    line-height: 2.5;
+    background-color: whitesmoke;
+}
