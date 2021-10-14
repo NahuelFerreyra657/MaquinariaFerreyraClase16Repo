@@ -81,11 +81,11 @@ main {
     height: 50%;
     padding-top: 30px; }
   main .menuHome {
-    height: 750px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 30px; }
+    padding-bottom: 20px; }
   main th {
     color: whitesmoke;
     font-size: 15px;
@@ -161,7 +161,7 @@ footer {
   background: black;
   padding-right: 20px; }
   footer .separacionIconos {
-    width: 27%;
+    width: 37%;
     display: flex;
     justify-content: space-between;
     color: #0a8fbb; }
@@ -250,4 +250,4 @@ footer {
   footer {
     font-size: 35px; }
     footer .separacionIconos {
-      width: 10%; } }
+      width: 15%; } }
